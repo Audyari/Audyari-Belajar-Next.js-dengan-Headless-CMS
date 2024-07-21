@@ -7,6 +7,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <title>Belajar Dasar NextJs</title>
+      </head>
       <body>
         <header>[header]</header>
         <main>{children}</main>
